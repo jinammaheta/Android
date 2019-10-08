@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SMC Parking System</string>
+    <string name="place_name">Place Name</string>
+    <string name="dist">Distance</string>
+    <string name="dur">Duration</string>
+    <string name="ins">Instruction</string>
+    <string name="slot">Available Slots</string>
+    <string name="title_activity_temp">temp</string>
+</resources>

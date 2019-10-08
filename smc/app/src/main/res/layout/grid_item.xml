@@ -1,0 +1,180 @@
+<!--<androidx.cardview.widget.CardView -->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:elevation="4dp"-->
+<!--    app:cardCornerRadius="7dp">-->
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="7dp"
+    android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:padding="16dp" android:orientation="vertical">
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="horizontal">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorTextHint"
+            android:text="@string/place_name" android:layout_weight="2"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:textColor="@color/darker_gray"
+            android:text="@string/place_name" android:layout_weight="1" android:id="@+id/name"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="5dp">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:textColor="@color/colorTextHint"
+            android:text="@string/dist" android:layout_weight="2"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/darker_gray" android:text="@string/dist"
+            android:layout_weight="1" android:id="@+id/distance"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="5dp">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:textColor="@color/colorTextHint"
+            android:text="@string/dur" android:layout_weight="2"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:textColor="@color/darker_gray" android:text="@string/dur"
+            android:layout_weight="1" android:id="@+id/duration"/>
+
+    </LinearLayout>
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="5dp">
+
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:textColor="@color/colorTextHint"
+                    android:text="@string/slot" android:layout_weight="2"/>
+
+                <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+                    android:textColor="@color/darker_gray" android:text="@string/dur"
+                    android:layout_weight="1" android:id="@+id/slot"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/direction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded"
+                    android:gravity="center"
+                    android:paddingStart="22.3dp"
+                    android:paddingTop="7.3dp"
+                    android:paddingEnd="19dp"
+                    android:paddingBottom="8.7dp"
+                    android:text="Get Direction"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    android:layout_marginTop="5dp"-->
+<!--    android:layout_marginRight="5dp"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="5dp">-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/send"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:elevation="4dp"-->
+<!--        app:cardCornerRadius="7dp">-->
+
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+<!--            <TextView-->
+<!--                android:id="@+id/name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="21dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="centerCrop" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:layout_marginBottom="40dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/distance"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="21dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:adjustViewBounds="true" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginTop="90dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:layout_marginBottom="40dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/duration"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="21dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:adjustViewBounds="true" />-->
+
+<!--        </RelativeLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--</LinearLayout>-->
